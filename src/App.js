@@ -1,18 +1,22 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Project";
+import Experiences from "./components/Experiences";
 import Skills from "./components/Skills";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-stone-900 body-font">
       <Navbar />
+      <Header />
       <About />
-      <Projects />
       <Skills />
+      <Experiences />
       <Contact />
+      <Footer />
     </main>
   );
 }

@@ -1,4 +1,4 @@
-import { BadgeCheck, Chip } from "heroicons-react";
+import { Chip } from "heroicons-react";
 import React from "react";
 
 
